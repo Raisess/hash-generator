@@ -1,5 +1,7 @@
 # 🤠 RANDOM HASH GENERATOR
 
+![gif](https://media.tenor.com/images/e3b44792cbe73b6e4838f7479bd4e9a2/tenor.gif)
+
 ## ⚙️ CONFIGURATION
 
 - You need the gcc and nodejs (to use npm) installed.
