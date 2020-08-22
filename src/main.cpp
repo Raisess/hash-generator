@@ -1,11 +1,12 @@
 #include <iostream>
 #include <randomHash.hpp>
 
-#define LENG 12
+#define LENG 40
 
 using namespace std;
 
-int main() {
+int main(int argc, char* argv[]) {
+	// generated random hash array
 	char** myHash = randomHash(LENG, true, true);
 
 	for (int i = 0; i < LENG; i++) {
