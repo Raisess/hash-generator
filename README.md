@@ -30,6 +30,6 @@ npm run clean
 
 ### 🤓 CREDITS
 
-Created by ![Raisess](https://github.com/Raisess)
-License - MIT
+- Created by [Raisess](https://github.com/Raisess)
+- License - MIT
 
