@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-	char** myHash = randomHash(LENG, false, true);
+	char** myHash = randomHash(LENG, true, true);
 
 	for (int i = 0; i < LENG; i++) {
 		printf("%c", &myHash[i]);

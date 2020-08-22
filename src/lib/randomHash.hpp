@@ -26,10 +26,15 @@ char** randomHash(int len, bool symbolsBool, bool debug) {
 			} else {
 				hash_[i] = caracs[randomNumber];
 			}
-		} /*else {	
-			char r = caracs[randomNumber] || numbers[randomNumber];
-			hash_[i] = r || symbols[randomNumber];
-		}*/
+		} else {
+			if (randomNumber % 2 != 0) {
+				int r = rand() % randomNumber;
+
+				hash_[i] = r % 2 != 0 ? numbers[randomNumber] : symbols[randomNumber];
+			} else {
+				hash_[i] = caracs[randomNumber];
+			}
+		}
 
 		if (debug) {
 			cout << hash_[i];
