@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdlib.h>
+#include <time.h>
 #include <caracs.hpp>
 
 using namespace std;
@@ -8,8 +9,10 @@ char* randomHash(int len, bool symbolsBool, bool debug) {
 	char hash_[len];
 	int  randomNumber;
 
+	srand(time(NULL));
+
 	for (int i = 0; i < len; i++) {
-		randomNumber = rand() % 26 + 1;
+		randomNumber = rand() % 26;
 
 		if (!symbolsBool) {
 			hash_[i] = caracs[randomNumber];
