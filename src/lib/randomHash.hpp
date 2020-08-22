@@ -10,13 +10,12 @@ auto randomHash(int len, bool symbols, bool debug) {
 		hash_[i] = caracs[i];
 
 		if (debug) {
-			cout << caracs[i];
 			cout << hash_[i];
 		}
 	}
 
 	if (debug) {
-		cout << hash_ << "\n";
+		cout << "\n" << hash_ << "\n";
 	}
 
 	return hash_;
