@@ -4,8 +4,8 @@
 using namespace std;
 
 int main() {
-	const int leng = 10;
-	char* myHash   = randomHash(leng, false, true);
+	int    leng     = 10;
+	char** myHash   = randomHash(leng, false, true);
 
 	for (int i = 0; i < leng; i++) {
 		printf("%c", &myHash[i]);

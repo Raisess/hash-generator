@@ -5,11 +5,17 @@
 
 using namespace std;
 
-char* randomHash(int len, bool symbolsBool, bool debug) {
-	char hash_[len];
-	int  randomNumber;
+char** randomHash(int len, bool symbolsBool, bool debug) {
+	char* hash_[len];
+	int   randomNumber;
 
 	srand(time(NULL));
+
+	if (debug) {
+		cout << "debug: "   << debug       << "\n";
+		cout << "symbols: " << symbolsBool << "\n";
+		cout << "hash: ";
+	}
 
 	for (int i = 0; i < len; i++) {
 		randomNumber = rand() % 26;
@@ -22,14 +28,12 @@ char* randomHash(int len, bool symbolsBool, bool debug) {
 		}*/
 
 		if (debug) {
-			cout << randomNumber << ", ";
+			cout << hash_[i];
 		}
 	}
 
 	if (debug) {
 		cout << "\n";
-		cout << "debug: "   << debug       << "\n";
-		cout << "symbols: " << symbolsBool << "\n";
 		cout << "p_hash: "  << hash_       << "\n";
 	}
 
