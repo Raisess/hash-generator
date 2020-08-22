@@ -1,13 +1,14 @@
 #include <iostream>
 #include <randomHash.hpp>
 
+#define LENG 12
+
 using namespace std;
 
 int main() {
-	int    leng     = 10;
-	char** myHash   = randomHash(leng, false, true);
+	char** myHash = randomHash(LENG, false, true);
 
-	for (int i = 0; i < leng; i++) {
+	for (int i = 0; i < LENG; i++) {
 		printf("%c", &myHash[i]);
 	}
 

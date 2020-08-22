@@ -21,7 +21,11 @@ char** randomHash(int len, bool symbolsBool, bool debug) {
 		randomNumber = rand() % 26;
 
 		if (!symbolsBool) {
-			hash_[i] = caracs[randomNumber];
+			if (randomNumber % 2 != 0) {
+				hash_[i] = numbers[randomNumber];
+			} else {
+				hash_[i] = caracs[randomNumber];
+			}
 		} /*else {	
 			char r = caracs[randomNumber] || numbers[randomNumber];
 			hash_[i] = r || symbols[randomNumber];
