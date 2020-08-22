@@ -1,5 +1,5 @@
 #include <iostream>
-#include <randomHash.h>
+#include <randomHash.hpp>
 
 using namespace std;
 

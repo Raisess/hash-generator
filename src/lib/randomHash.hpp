@@ -1,4 +1,4 @@
-#include <caracs.h>
+#include <caracs.hpp>
 
 auto randomHash(int len, bool symbols) {
 	char* hash_[len];
