@@ -4,11 +4,11 @@
 using namespace std;
 
 int main() {
-	const  int leng     = 26;
-	char** myHash[leng] = { randomHash(leng, false, true) };
+	const int leng = 10;
+	char* myHash   = randomHash(leng, false, true);
 
 	for (int i = 0; i < leng; i++) {
-		cout << myHash[i];
+		printf("%c", &myHash[i]);
 	}
 
 	cout << "\n";
