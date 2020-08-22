@@ -4,7 +4,7 @@
 
 - You need the gcc and nodejs (to use npm) installed.
 
-## 🔌 INSTALLING
+## 🔮 COMPILING
 
 Clone the repo, go to repo folder and then:
 
@@ -12,7 +12,7 @@ Clone the repo, go to repo folder and then:
 npm run compile
 ```
 
-## 🔮 RUNNING
+## 💡 RUNNING
 
 ```shell
 npm run start
@@ -27,4 +27,9 @@ Run this command:
 ```shell
 npm run clean
 ```
+
+### 🤓 CREDITS
+
+Created by ![Raisess](https://github.com/Raisess)
+License - MIT
 
