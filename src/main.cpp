@@ -1,10 +1,13 @@
 #include <iostream>
-#include <caracs.h>
+#include <randomHash.h>
 
 using namespace std;
 
-int main () {
-	cout << caracs[0] << "\n";
+int main() {
+	const int leng      = 10;
+	char** myHash[leng] = { randomHash(leng, false) };
+
+	cout << myHash << "\n";
 
 	system("pause");
 	return 0;
