@@ -1,0 +1,29 @@
+{
+  "name": "password_generator",
+  "version": "1.0.0",
+  "description": "A simple password/random-hash generator writen in cpp.",
+  "main": "./src/main.cpp",
+  "scripts": {
+		"start": "start ./build/a.exe",
+		"compile": "g++ ./src/main.cpp | mkdir build | npm run finish-compile",
+		"finish-compile": "mv a.exe ./build",
+		"clean": "rm -r ./build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raisess/password-generator.git"
+  },
+  "keywords": [
+    "cpp",
+    "password-generator",
+    "hash",
+    "random-hash"
+  ],
+  "author": "Raisess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Raisess/password-generator/issues"
+  },
+  "homepage": "https://github.com/Raisess/password-generator#readme"
+}
