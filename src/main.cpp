@@ -9,6 +9,7 @@ int main(int argc, char* argv[]) {
 	// generated random hash array
 	char** myHash = randomHash(LENG, true, true);
 
+	// TODO: fix this fu#king print
 	for (int i = 0; i < LENG; i++) {
 		printf("%c", &myHash[i]);
 	}
