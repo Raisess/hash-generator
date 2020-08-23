@@ -6,6 +6,19 @@
 
 - You need the gcc and nodejs (to use npm) installed.
 
+## 📝 HASH OPTIONS
+
+You can edit this options in **main.cpp**.
+
+```cpp
+// hash string length
+#define LENG 12   // default is 8
+// if hash have symbols
+#define SYMB true // default is true
+// debug mode
+#define DEBU true // define is true
+```
+
 ## 🔮 COMPILING
 
 Clone the repo, go to repo folder and then:

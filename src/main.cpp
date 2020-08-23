@@ -1,7 +1,7 @@
 #include <iostream>
 #include <randomHash.hpp>
 
-#define LENG 40
+#define LENG 8
 #define SYMB true
 #define DEBU true
 
