@@ -58,7 +58,7 @@ char** randomHash(int len, bool symbolsBool, bool debug) {
 	// hash pointer print
 	if (debug) {
 		cout << "\n";
-		cout << "p_hash: "  << hash_ << "\n";
+		cout << "p_hash: " << &hash_ << "\n";
 	}
 
 	return hash_;

@@ -1,4 +1,4 @@
-const char* caracs[]  = {
+static const char* caracs[] = {
 	"a", "b",	"c",
 	"d", "e",	"f",
 	"g", "h",	"i",
@@ -10,7 +10,7 @@ const char* caracs[]  = {
 	"y", "z"
 };
 
-const char* symbols[] = {
+static const char* symbols[] = {
 	"!", "@", "#",
 	"$", "%", "¨",
 	"&", "*", "(",
@@ -22,7 +22,7 @@ const char* symbols[] = {
 	"ª", "|"
 };
 
-const char* numbers[] = {
+static const char* numbers[] = {
 	"1", "2", "3",
 	"4", "5", "6",
 	"7", "8", "9",
